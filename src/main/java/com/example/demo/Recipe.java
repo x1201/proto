@@ -12,8 +12,9 @@ import lombok.ToString;
 public class Recipe {
 
 	private String name;
-	private String ingrdeint;
+	private String ingredient;
 	private String content;
+	private String picture;
 	public String Contets() {
 		return this.content;
 	}
